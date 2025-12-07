@@ -1,0 +1,10 @@
+[
+  {
+    "dialogue": [
+      {"role": "user", "text": "打开空调"},
+      {"role": "assistant", "text": "已打开空调"},
+      {"role": "user", "text": "再冷一点"}
+    ],
+    "expected_behavior": "降低温度"
+  }
+]
