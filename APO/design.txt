@@ -1,0 +1,21 @@
+Base system prompt
+      ↓
+Prompt Mutator（变异器）
+      ↓
+Candidate System Prompts
+      ↓
+LLM 推理 + 自动评分
+      ↓
+选择更优 prompt
+      ↓
+继续迭代
+
+sys_prompt = compile_prompt(prompt_program)
+
+results = run_eval(sys_prompt)
+
+errors = collect_error_replay(results)
+
+rule_patch = llm_generate_rule_patch(errors)
+
+prompt_program = update_rules(prompt_program, rule_patch)

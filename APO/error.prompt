@@ -1,0 +1,16 @@
+你是一个专门优化大模型 System Prompt 的 AI。
+
+当前 System Prompt 如下：
+<<<
+{sys_prompt}
+>>>
+
+以下是模型在该prompt下的失败案例（error replay buffer）：
+
+{error_samples}
+
+请完成：
+1. 总结系统性失败模式。
+2. 改进该 system prompt，使其能避免类似错误。
+3. 保留原始 prompt 的有效部分。
+4. 只输出最终优化后的完整 system prompt，不要解释。

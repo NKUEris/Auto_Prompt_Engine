@@ -1,0 +1,8 @@
+ I'm trying to write a prompt for zero-shot instruction task that will help the most capable and suitable agent to solve the task.
+  My current prompt is:
+  [CURRENT PROMPT] "{instruction}"
+  Now this prompt got the following examples correct:
+  [CORRECT EXAMPLES] {examples}
+  Since you cant use these examples, analyse and understand characteristics/complexity and diversity of these examples and their reasoning chain and
+  accordingly provide suggestions to further improve the prompt and make it better as a zero shot instruction task.
+    
